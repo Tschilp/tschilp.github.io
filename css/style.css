@@ -95,15 +95,22 @@ html {
     letter-spacing: 1.0px;
 }
 
-.content {
-    
-}
+.content {}
 
 .video {
     display: flex;
     justify-content: center;
 }
 
+.fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .image {
     width: 40%;
+    max-width: 600px;
+    padding: 20px;
 }
