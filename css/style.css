@@ -117,10 +117,25 @@ body {}
     padding: 20px;
 }
 
-.projektziel {
-    text-align: left;
+.ueberschrift {
+    text-align: center;
     font-family: Helvetica Neue, Arial, sans-serif;
     font-weight: 400;
     line-height: 1.5em;
+    color: #120453;
+    padding-top: 5%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.text p {
+    font-family: 'martel', serif;
+    text-align: justify;
     color: #120453;
 }
