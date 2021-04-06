@@ -2,6 +2,8 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+body {}
+
 .navigation {
     top: 0;
     bottom: 0;
@@ -113,4 +115,12 @@ html {
     width: 40%;
     max-width: 600px;
     padding: 20px;
+}
+
+.projektziel {
+    text-align: left;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #120453;
 }
