@@ -2,11 +2,6 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-body {
-    font-family: Helvetica Neue, Arial, sans-serif;
-    color: #120453;
-}
-
 .navigation {
     top: 0;
     bottom: 0;
@@ -102,11 +97,6 @@ body {
 
 .content {}
 
-.content h1 {
-    padding-top: 5%;
-    text-align: center;
-}
-
 .video {
     display: flex;
     justify-content: center;
@@ -126,16 +116,13 @@ body {
 }
 
 .text {
-    display: flex;
-    flex-wrap: wrap;
     padding-left: 10%;
     padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
     font-family: 'martel', serif;
     color: #120453;
-}
-
-.text p {
-    text-align: justify;
 }
 
 .text h1 {
@@ -150,13 +137,4 @@ body {
     font-weight: 400;
     color: #120453;
     text-align: center;
-    padding-top: 2%;
-}
-
-.text h3 {
-    font-family: Helvetica Neue, Arial, sans-serif;
-    font-weight: 400;
-    color: #120453;
-    text-align: center;
-    padding-top: 5%;
 }
