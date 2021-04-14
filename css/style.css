@@ -62,12 +62,15 @@ html {
     color: #ffe16b;
 }
 
-.social-media a img {
-    width: 10%;
-    height: auto;
-    display: block;
-    border: 0;
+.content-icons {
     padding-left: 20%;
+}
+
+.social-media a img {
+    width: 12%;
+    height: auto;
+    border: 0;
+    padding: 5px;
 }
 
 .title {
